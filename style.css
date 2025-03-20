@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  background-color: #ffffff;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  min-height: 100vh;
+  overflow: hidden;
+  font-size: 18px;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100vw;
+}
+
+.image-container {
+  position: relative;
+  flex: 1;
+  min-height: 100vh;
+}
+
+.image-container img {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+div.form-container {
+  overflow: visible;
+  background-color: white;
+  position: relative;
+}
+.form-container {
+  flex: 1;
+  padding: 50px;
+  min-height: 100vh;
+  overflow-y: scroll;
+}
+.price-banner {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #0e390f;
+  color: white;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 15px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+select,
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+fieldset {
+  margin-top: 20px;
+  box-shadow: #000000;
+  max-width: 500px;
+  padding: 16px;
+}
+legend {
+  background-color: rgb(10, 60, 25);
+  color: white;
+  padding: 5px 10px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
