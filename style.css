@@ -59,7 +59,12 @@ div.form-container {
   align-items: center;
   font-size: 20px;
 }
-
+button#seeOrder {
+  padding: 5px;
+  background-color: #0e390f;
+  color: white;
+  border-radius: 5px;
+}
 h3 {
   margin-top: 15px;
 }
